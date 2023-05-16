@@ -1,0 +1,40 @@
+package bai3_2;
+
+import java.util.Scanner;
+
+public class tamGiac extends diem {
+     private diem a,b,c;
+	public tamGiac(int x, int y) {
+		super(x,y); 
+		diem a,b,c;
+		}
+	public void nhapTamGiac() {
+		Scanner sc=new Scanner (System.in);
+		System.out.println("nhập tọa độ điểm a");
+		a.nhapDiem();
+		System.out.println("nhập tọa độ điểm b");
+		b.nhapDiem();
+		System.out.println("nhập tọa độ điểm c");
+		c.nhapDiem();
+	}	
+	public void xuatDiem () {
+		System.out.println("a=("+x+","+y+")");
+		System.out.println("b=("+x+","+y+")");
+	}
+	public static void main(String[] args) {
+		tamGiac a=new tamGiac(0,0);
+		System.out.println("nhập tọa độ điểm a");
+		a.nhapTamGiac();
+		a.xuatDiem();
+		tamGiac b=new tamGiac(0,0);
+		System.out.println("nhập tọa độ điểm b");
+		b.nhapTamGiac();
+		b.xuatDiem();
+		tamGiac c=new tamGiac(0,0);
+		System.out.println("nhập tọa độ điểm c");
+		c.nhapTamGiac();
+		c.xuatDiem();
+	}
+	
+
+}

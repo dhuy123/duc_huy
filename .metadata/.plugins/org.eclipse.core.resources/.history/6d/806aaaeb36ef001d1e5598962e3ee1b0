@@ -1,0 +1,8 @@
+
+public class buoi03 {
+public static void main(String[] args) {
+	String str ="nguyen duc huy";
+	str.charAt(7);
+	System.out.println(str);
+}
+}

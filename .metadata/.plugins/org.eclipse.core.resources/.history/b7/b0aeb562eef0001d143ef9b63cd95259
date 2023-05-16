@@ -1,0 +1,67 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class sach {
+	private String ma, ten, tacGia, loai, nxb;
+	private int trang, tap, gia;
+
+public void	sach(String ma, String ten, String tacGia, String loai, String nxb, int trang, int tap, int gia) {
+
+		ma = ma;
+		ten = ten;
+		tacGia = tacGia;
+		loai = loai;
+		nxb = nxb;
+		trang = trang;
+		tap = tap;
+		gia = gia;
+	}
+
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("nhập thông tin sách:");
+		System.out.print("nhập mã :");
+		ma = sc.next();
+		System.out.print("nhập tên sách:");
+		ten = sc.next();
+		sc.nextLine();
+		System.out.print("nhập tên tác giả:");
+		tacGia = sc.next();
+		sc.nextLine();
+		System.out.print("nhập số trang:");
+		trang = sc.nextInt();
+		sc.nextLine();
+		System.out.print("nhập loại sách:");
+		loai = sc.next();
+		sc.nextLine();
+		System.out.print("nhập nhà xuất bản:");
+		nxb = sc.next();
+		System.out.print("nhập số tập :");
+		tap = sc.nextInt();
+		System.out.print("nhập giá :");
+		gia = sc.nextInt();
+	}
+
+	public void xuat() {
+		System.out.println("mã:" + ma + "tên:" + ten + "tên tác giả:" + tacGia + "số trang :" 
+		+ trang + "loại sách:"+ loai + "nhà xuất bản:" + nxb + "số tập :" + tap + "giá:" + gia);
+	}
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		int n;
+		System.out.println("nhập số sách:");
+		n=sc.nextInt();
+		sach s[]=new sach[n];
+		for (int i=0;i<=n;i++) {
+			s[i]=new sach();
+			s[i].nhap();
+		}
+		System.out.println("\tthông tin sách:");
+		for (int i=0;i<=n;i++) {
+			s[i].xuat();
+		}
+
+	}
+}

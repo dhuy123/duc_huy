@@ -1,0 +1,56 @@
+package bai3_2;
+
+import java.util.Scanner;
+import java.math.*;
+public class tamGiac extends diem {
+	private int a,b,c;
+	
+	tamGiac(int x, int y ) {
+		super(x, y);
+		}
+	public void nhapTG(){
+		Scanner sc=new Scanner (System.in);
+		System.out.print("nhập tọa độ a:");
+		a=sc.nextInt();
+		System.out.print("nhập tọa độ b:");
+		b=sc.nextInt();
+		System.out.print("nhập tọa độ c:");
+		c=sc.nextInt();
+	}
+	public void inTamGiac () {
+		System.out.println("tọa độ 3 điểm a1 b1 c1 :"+a+","+b+","+c);
+	}
+	public boolean kiemtra() {
+		if (a+b>c&& a+c>b && b+c>a) {
+			return true;
+		}else return false;
+	}
+	public void chuvi() {
+		double chuvi=0;
+		System.out.println("chuvi="+(double)(a+b+c));
+	}
+	public void dientich () {
+		double p=(a+b+c)/2;
+		double dientich =0;
+		System.out.println("dientich="+(double)(Math.sqrt(p*(p-a)*(p-b)*(p-c))));
+	}
+//	public static void main(String[] args) {
+//		tamGiac a=new tamGiac(0,0);
+//		System.out.print("nhập tọa độ a:");
+//		a.nhapDiem();
+//		tamGiac b=new tamGiac(0,0);
+//		System.out.print("nhập tọa độ b:");
+//		b.nhapDiem();
+//		tamGiac c=new tamGiac(0,0);
+//		System.out.print("nhập tọa độ c:");
+//		c.nhapDiem();
+//		System.out.println("tọa độ a:");
+//		a.inDiem();
+//		System.out.println("tọa độ b:");
+//		b.inDiem();
+//		System.out.println("tọa độ c:");
+//		c.inDiem();
+//	}
+//	
+
+}

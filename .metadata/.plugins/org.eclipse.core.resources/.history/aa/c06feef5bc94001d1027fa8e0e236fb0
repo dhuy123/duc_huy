@@ -1,0 +1,16 @@
+package baitaplan2;
+
+import java.util.Scanner;
+
+public class bai6{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int mang1 =sc.nextInt();
+		for (int i=0;i>=mang1;i++) {
+			System.out.println("nhập phan tử mang"+i);
+		}
+		
+		
+	}
+
+}

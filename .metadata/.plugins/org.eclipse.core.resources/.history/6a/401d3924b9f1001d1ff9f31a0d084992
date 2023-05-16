@@ -1,0 +1,40 @@
+package bai3_2;
+
+import java.util.Scanner;
+
+public class duongtron extends diem {
+diem o;
+int r;
+	duongtron(int x, int y) {
+		super(x, y);
+		}
+	public void nhapdt() {
+		Scanner sc= new Scanner (System.in);
+		System.out.println("nhập bán kính");
+		r=sc.nextInt();
+		System.out.println("nhập tọa đọ tâm O:");
+		
+	}public void indt(){
+		System.out.println("bán kính đường tròn "+r);
+		System.out.println("tạo dộ tâm O:");
+	}
+	public double chuvi() {
+		double chuvi=0;
+		return chuvi=2*3.14*r;
+	}
+	public double dientich() {
+		double dientich=0;
+		return dientich=r*r*3.14;
+		//System.out.println(r*r*3.14);
+	}
+public static void main(String[] args) {
+	duongtron d=new duongtron(0,0);
+	d.nhapdt();
+	d.nhapDiem();
+	d.chuvi();
+	d.dientich();
+//	d.indt();
+//	d.inDiem();
+	
+}
+}

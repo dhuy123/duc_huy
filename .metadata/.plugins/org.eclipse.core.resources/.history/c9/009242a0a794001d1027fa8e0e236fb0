@@ -1,0 +1,10 @@
+package baitaplan2;
+
+public class bai5 {
+public static void main(String[] args) {
+	String sc="nguyen";
+	String result=sc.nextLine();
+	System.out.println((char)(sc.charAt(0)+32));
+	
+}
+}

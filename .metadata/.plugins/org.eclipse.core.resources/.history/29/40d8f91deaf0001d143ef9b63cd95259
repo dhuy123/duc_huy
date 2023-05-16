@@ -1,0 +1,50 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class sach {
+private String ma,ten,tacGia,loai,nxb;
+int trang,tap,gia;
+sach(String ma, String ten, String tacGia, String loai, String nxb, int trang, int tap, int gia) {
+	
+//	this.ma = ma;
+//	this.ten = ten;
+//	this.tacGia = tacGia;
+//	this.loai = loai;
+//	this.nxb = nxb;
+//	this.trang = trang;
+//	this.tap = tap;
+//	this.gia = gia;
+}
+public void nhap() {
+	Scanner sc=new Scanner (System.in);
+	System.out.print("nhập thông tin sách:");
+	System.out.print("nhập mã :");
+	this.ma=sc.next();
+	System.out.print("nhập tên sách:");
+	this.ten=sc.next();
+	System.out.print("nhập tên tác giả:");
+	this.tacGia=sc.next();
+	System.out.print("nhập số trang:");
+	this.trang=sc.nextInt();
+	System.out.print("nhập loại sách:");
+	this.loai=sc.next();
+	System.out.print("nhập nhà xuất bản:");
+	this.nxb=sc.next();
+	System.out.print("nhập số tập :");
+	this.tap=sc.nextInt();
+	System.out.print("nhập giá :");
+	this.gia=sc.nextInt();
+	}
+public void in(){
+System.out.print("\tthông tin sách:");
+System.out.print("mã:"+this.ma+"tên:"+this.ten+"tên tác giả:"+this.tacGia+"số trang :"+
+this.trang+"loại sách:"+this.loai+"nhà xuất bản:"+this.nxb+"số tập :"+this.tap+"giá:"+this.gia);
+}
+public static void main(String[] args) {
+	sach s=new sach();
+	s.nhap();
+	s.in();
+	
+}
+}

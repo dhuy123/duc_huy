@@ -1,0 +1,46 @@
+package buoi01;
+
+import java.util.Scanner;
+
+public class sinhvien {
+//	// thuộc tính của lop
+	int masv;
+	String ten;
+	int tuoi;
+
+//	// phương thức khởi tạo
+	public void sinhvien(int masv, String ten, int tuoi) {
+
+		this.masv = masv;
+		this.ten = ten;
+		this.tuoi = tuoi;
+	}
+
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		for (int i=0;i<3;i++) {
+		System.out.println("nhap msv:");
+		this.masv = sc.nextInt();
+		sc.nextLine();
+		System.out.println("nhap ten:");
+		this.ten = sc.nextLine();
+		System.out.println("nhap tuoi:");
+		this.tuoi = sc.nextInt();
+		}
+	}
+
+	public void xuat() {
+		for (int i=0;i<3;i++) {
+		System.out.println("ma sinh vien la:" + this.masv + ",\nten sinh vien la : " + this.ten + ",\ntuoi sinh vien :" + this.tuoi);
+		}
+	}
+	 
+	public static void main(String[] args) {
+		
+		sinhvien sv = new sinhvien();
+		
+		sv.nhap();
+		sv.xuat();
+		
+	}
+}

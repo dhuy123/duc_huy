@@ -1,0 +1,10 @@
+package buoi01;
+
+public class duchuy {
+  public static void main(String[] args) {
+	System.out.println("hello java");
+	char a=;           
+    
+	System.out.println(a);
+}
+}

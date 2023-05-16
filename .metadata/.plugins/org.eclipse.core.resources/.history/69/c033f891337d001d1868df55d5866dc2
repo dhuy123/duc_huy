@@ -1,0 +1,18 @@
+package buoi01;
+import java.util.Scanner;
+public class duchuy {
+	public static void main (String[] args ) {
+		Scanner sc=new Scanner (System.in);
+		String a=sc.printf(a);
+		System.out.println("nhap chuỗi"+a);
+	String str="nguyen duc huy";
+		System.out.println(str.startsWith("n"));
+//		System.out.println(str.substring(4, 8));
+//		System.out.println(str.repeat(0));
+//		Integer a=new Integer(10);
+//		Integer b=new Integer(10);
+//		System.out.println(a==b);
+		
+	}
+
+}

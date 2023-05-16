@@ -1,0 +1,15 @@
+package buoi01;
+
+public class duchuy {
+	public static void main (String[] args ) {
+	String str="nguyen duc huy";
+		System.out.println(str.result(0));
+//		System.out.println(str.substring(4, 8));
+//		System.out.println(str.repeat(0));
+//		Integer a=new Integer(10);
+//		Integer b=new Integer(10);
+//		System.out.println(a==b);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package buoi02;
+
+import java.util.Scanner;
+
+public class test {
+//public static void main(String[] args) {
+//	Scanner sc=new Scanner (System.in);
+//	System.out.print("nhập tuoi");
+//	int age=sc.nextInt();
+//	sc.nextLine();
+//System.out.print("nhập tên ");
+//String name =sc.nextLine();
+//
+//System.out.print("tuoi la"+age);
+//System.out.println("ten la "+name);
+//}
+}

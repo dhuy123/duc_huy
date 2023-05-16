@@ -1,0 +1,26 @@
+package bai3_2;
+
+import java.util.Scanner;
+
+public class tamGiac extends diem {
+	private diem a,b,c;
+	public tamGiac(int x, int y) {
+		super(x,y);
+		diem a,b,c;
+		}
+ }
+	public static void main(String[] args) {
+		tamGiac a=new tamGiac(0,0);
+		a.nhapDiem();
+		tamGiac b=new tamGiac(0,0);
+		b.nhapDiem();
+		tamGiac c=new tamGiac(0,0);
+		c.nhapDiem();
+		a.xuatdiem();
+		b.xuatdiem();
+		c.xuatdiem();
+		
+	}
+	
+
+}

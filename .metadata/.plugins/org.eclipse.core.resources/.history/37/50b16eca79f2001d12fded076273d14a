@@ -1,0 +1,15 @@
+package bai3_3;
+
+import buoi03.hangHoa;
+
+public class hangDienMay extends hangHoa {
+private hangHoa hangDienMay;
+int thoiGianBaoHanh;
+int dienAp;
+int congSuat;
+public hangDienMay() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+}

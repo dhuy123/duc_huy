@@ -1,0 +1,27 @@
+package buoi02;
+
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+//next() in ra 1 từ trong chuỗi ko tính dấu cách
+//nextLine () in ra cả câu có dấu cách
+//		char =' ';
+//		char ='\u0000';//là ký tự rỗng
+//		System.out.println((int)a);
+//		System.out.println((int)b);
+//		
+		
+//
+//		System.out.print("nhập tên ");
+//		String name =sc.nextLine();
+//		System.out.print("nhập tuoi");
+//		int age=sc.nextInt();
+//		System.out.print("ten la"+name);
+//		System.out.print("tuoi la"+age);
+//		
+//		
+//		sc.close();
+	}
+}

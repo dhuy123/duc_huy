@@ -1,0 +1,11 @@
+package buoi03;
+
+public class hangSanhSu extends hangHoa {
+	private hangHoa hangSanhSu;
+	String loaiNguyenLieu;
+	public hangSanhSu() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

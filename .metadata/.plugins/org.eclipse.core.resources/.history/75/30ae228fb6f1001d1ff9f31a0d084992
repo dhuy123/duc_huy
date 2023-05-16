@@ -1,0 +1,23 @@
+package bai3_2;
+
+import java.util.Scanner;
+
+public class duongtron extends diem {
+diem o;
+int r;
+	duongtron(int x, int y) {
+		super(x, y);
+		}
+	public void nhapdt() {
+		Scanner sc= new Scanner (System.in);
+		System.out.println("nhập bán kính");
+		r=sc.nextInt();
+		System.out.println("nhập tọa đọ tâm O:");
+		o.nhapDiem();
+	}
+	
+public static void main(String[] args) {
+	duongtron d=new duongtron(0,0);
+	d.nhapdt();
+}
+}

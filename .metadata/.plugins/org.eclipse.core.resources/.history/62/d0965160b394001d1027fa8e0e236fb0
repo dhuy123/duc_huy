@@ -1,0 +1,26 @@
+package baitaplan2;
+
+import java.util.Scanner;
+
+public class bai5 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.print("nhập vào 2 số nguyên a b:");
+	int nam=sc.nextInt();
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+	{
+	 for (int i=0;i>=nam;i++) {
+		 if (a%400==0&&b%400==0) {
+			 System.out.println("các năm nhuận là "+i);
+		 }
+	 }
+	 
+		System.out.println("");
+	
+	
+	
+	
+}
+}
+}

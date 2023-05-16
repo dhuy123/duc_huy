@@ -1,0 +1,41 @@
+package buoi03;
+
+import java.util.Scanner;
+
+public class main {
+public static void main(String[] args) {
+	Scanner sc=new Scanner (System.in);
+	int n;
+	hangThucPham obj=new hangThucPham();
+	System.out.print("nhâp số lượng thuc phẩm ");
+	n=sc.nextInt();
+	hangHoa hang1[]= new hangHoa[n];
+	for(int i=0;i<n;i++){
+		hang1[i]=new hangThucPham(); 
+		hang1[i]=new hangSanhSu();
+		hang1[i]=new hangDienMay();
+	    hang1[i].nhap();}
+	System.out.println("danh sách hàng thuc pham ");
+	System.out.println("mã hàng"+"\t |tên hàng"+"\t| nhà sản xuất"+"\t| giá");
+	for(int i=0;i<n;i++){
+		hang1[i].xuat();
+	}
+
+//	ngayThang n1=new ngayThang();
+//	System.out.println("nhap ngay san xuat");
+//	n1.ngaySanXuat();
+//	n1.nhap();
+//	ngayThang n2=new ngayThang();
+//	System.out.println("nhap ngay het han");
+//	n2.ngayHetHan();
+//	n2.nhap();
+//	System.out.println("=====thông tin sản phẩm ======");
+//	obj.xuat();
+//	n1.xuat();
+//	n2.xuat();
+	
+}
+
+}
+
+

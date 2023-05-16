@@ -1,0 +1,18 @@
+package buoi03;
+
+import bai3_3.hangHoa;
+
+public class hangThucPham extends hangHoa {
+private hangHoa hangThucPham;
+int ngaySanXuat;
+int ngayHetHan;
+public hangThucPham() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+
+	
+
+
+
+}

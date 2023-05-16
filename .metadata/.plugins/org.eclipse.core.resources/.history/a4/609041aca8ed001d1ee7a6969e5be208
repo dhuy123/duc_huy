@@ -1,0 +1,11 @@
+package buoi02;
+
+public class main02 {
+	public static void main(String[] args) {
+		double  a=10;
+		System.out.println(++a + ++a +10 +a++);
+		System.out.println(a);
+		
+	}
+
+}

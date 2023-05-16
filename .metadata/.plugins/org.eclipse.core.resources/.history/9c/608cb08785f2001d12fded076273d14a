@@ -1,0 +1,59 @@
+package bai3_3;
+
+import java.util.Scanner;
+
+public class main {
+public static void main(String[] args) {
+	Scanner sc=new Scanner (System.in);
+	int lc;
+	System.out.println("\t Lựa Chọn :");
+	System.out.println("1. Hàng Thực Phẩm ");
+	System.out.println("2. Hàng Sành Sứ ");
+	System.out.println("3. Hàng Điện Máy");
+	lc=sc.nextInt();
+	switch (lc) {
+	case 1:{
+		System.out.println("\t----------nhập thông tin sản phẩm:--------");
+		hangThucPham a=new hangThucPham ();
+		a.nhap();
+		ngayThang sx=new ngayThang();
+		System.out.println("nhập ngày Sản Xuất:");
+		sx.ngaySanXuat();
+		sx.nhap();
+		ngayThang hh=new ngayThang();
+		System.out.println("nhập ngày hết hạn:");
+		hh.ngayHetHan();
+		hh.nhap();
+		a.xuat();
+		System.out.println("ngày sản xuất:");
+		sx.xuat();
+		System.out.println("ngày hết hạn:");
+		hh.xuat();
+		break;
+	}
+	case 2:{
+		System.out.println("\t----------nhập thông tin sản phẩm:--------");
+	    hangSanhSu b=new hangSanhSu();
+		b.nhap();
+		b.nhapnl();
+		System.out.println("*********thông tin sản phẩm:**********");
+		b.xuat();
+		System.out.println(b.toString());
+		break;
+	}	
+	case 3:{
+		System.out.println("\t----------nhập thông tin sản phẩm:--------");
+		hangDienMay c=new hangDienMay();
+		c.nhap();
+		c.nhaphdm();
+		System.out.println("*********thông tin sản phẩm:**********");
+	    c.xuat();
+	    System.out.println(c.toString());
+	}
+	}
+		
+	
+	
+}
+}
+

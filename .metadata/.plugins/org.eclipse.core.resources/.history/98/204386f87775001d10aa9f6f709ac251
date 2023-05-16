@@ -1,0 +1,11 @@
+package buoi01;
+
+public class duchuy {
+	public static void main(String[] args) {
+	System.out.println("hello java");
+	String hoVaTen ="Nguyen Duc Huy" ;
+	System.out.println("tên tôi là:"+ hoVaTen);
+    char a=101;
+    System.out.println(a);
+}
+}
