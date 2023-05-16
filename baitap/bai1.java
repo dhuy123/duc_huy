@@ -12,7 +12,7 @@ public class bai1 {
 		System.out.println("--------");
 		System.out.println("tổng số giây là:"+((gio*60*60)+(phut*60)+giay));
 		sc.close();
-		
+		//sua tren github
 	}
 
 }
