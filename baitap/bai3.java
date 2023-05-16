@@ -1,0 +1,17 @@
+package baitap;
+
+import java.util.Scanner;
+
+public class bai3 {
+	public static void main(String[] args) {
+		Scanner hoanvi = new Scanner(System.in);
+		System.out.println("Nhập vào 2 số nguyên a và b:");
+		int a = hoanvi.nextInt();
+		int b = hoanvi.nextInt();
+		int bienTam=a;
+		System.out.println("sau khi hoán đổi");
+		System.out.println(a=+b);
+		System.out.println(b=+bienTam);
+	}
+
+}
